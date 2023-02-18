@@ -81,4 +81,8 @@ by default no module is installed. Use
 marketplace search --> to search for various module  
 
 marketplace search <module name> --> to search for a specific module  
-marketplace install <module name>  --> to install a specific module  
+marketplace install <module path>  --> to install a specific module  
+modules load <module name or path>  --> to load the module  
+info  --> to get info about the module  
+options set source  --> to set source  
+run  --> to run the module once the source is set  
