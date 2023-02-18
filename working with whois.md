@@ -33,7 +33,6 @@ dig @10.1­.30.8 versio­n.bind chaos txt ---> Query the namese­rver's version 
 | NMAP |
  ------
 
-
 dns-zo­ne-­tra­nsfer
 DNS zone transfer
 dns-brute
@@ -45,28 +44,17 @@ To use an custom word list: nmap --scri­pt=­<script name> <do­mai­n> (option
  ----------
 | DNSRecon |
  ----------
--h, --help
-Show this help mesasge and exit
--d, --domain <do­mai­n>
-Domain to Target for enumer­ation
--r, --range <IP range>
-IP Range for reverse lookup brute force
--n, --name­_server <na­me>
-Domain server to use
--D, --dict­ionary <fi­le>
-Dictionary file to use for brute force
--t, --type <ty­pes>
-Specify the type of enumer­ation to perform
--a
-Perform AXFR with standard enumer­ation
--s
-Reverse Look-up for IPv4 ranges in SPF Records
--g
-Perform Google enumer­ation
--w
-Do deep whois analysis and reverse look-up
--z
-Performs a DNSSEC Zone Walk
+-h, --help --> Show this help mesasge and exit
+-d, --domain <do­mai­n> --> Domain to Target for enumer­ation
+-r, --range <IP range> --> IP Range for reverse lookup brute force
+-n, --name­_server <na­me> --> Domain server to use
+-D, --dict­ionary <fi­le> --> Dictionary file to use for brute force
+-t, --type <ty­pes> --> Specify the type of enumer­ation to perform
+-a --> Perform AXFR with standard enumer­ation
+-s --> Reverse Look-up for IPv4 ranges in SPF Records
+-g --> Perform Google enumer­ation
+-w --> Do deep whois analysis and reverse look-up
+-z --> Performs a DNSSEC Zone Walk
 
 Usage: dnsrec­on.py <op­tio­ns>
 
