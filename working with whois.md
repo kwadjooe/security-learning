@@ -2,44 +2,44 @@
 -----------------------------------------------------------
 WHOIS Protocol                                             |
 -----------------------------------------------------------
-whois.afrinic.net  --> Africa
-whois.aspnic.net   --> Asia Pacific, India, China and Australia
-whois.arin.net     --> US and Canada
-whois.lacnic.net   --> Mexico and Latin America
-whois.ripe.net     --> Europe, Greenland, Russian and Middle East
+whois.afrinic.net  --> Africa  
+whois.aspnic.net   --> Asia Pacific, India, China and Australia  
+whois.arin.net     --> US and Canada  
+whois.lacnic.net   --> Mexico and Latin America  
+whois.ripe.net     --> Europe, Greenland, Russian and Middle East  
 -----------------------------------------------------------
 ---------------------------
-DNS Reconnaissance Tools  |
+DNS Reconnaissance Tools  |  
 ---------------------------
-nslookup
-dig 
-Nmap DNS
-NSE Scripts   Zone transfer
-DNSRecon   include wordlist for DNS brute force, advanced feature include DNSSEC and mDNS support.
-Metasploit DNS functionality found in information gathering auxiliary modules, including reverse brute force.
+nslookup  
+dig   
+Nmap DNS  
+NSE Scripts   Zone transfer  
+DNSRecon   include wordlist for DNS brute force, advanced feature include DNSSEC and mDNS   support.
+Metasploit DNS functionality found in information gathering auxiliary modules, including reverse brute force.  
 
-DIG Synthax and Options
+DIG Synthax and Options  
 
--t any --->  lookup all records
--t mx  --->  lookup mail record only
--t axfr--->  attempts a zone transfer
+-t any --->  lookup all records  
+-t mx  --->  lookup mail record only  
+-t axfr--->  attempts a zone transfer  
 
--x <IP addres­s> ---> Simplified PTR (reverse) lookup
-<IP addres­s>.i­n-­add­r.arpa PTR ---> PTR record search in old days
-dig @10.1­.30.8 versio­n.bind chaos txt ---> Query the namese­rver's version of BIND
+-x <IP addres­s> ---> Simplified PTR (reverse) lookup  
+<IP addres­s>.i­n-­add­r.arpa PTR ---> PTR record search in old days  
+dig @10.1­.30.8 versio­n.bind chaos txt ---> Query the namese­rver's version of BIND  
 
 
  ------
-| NMAP |
+| NMAP |  
  ------
 
-dns-zo­ne-­tra­nsfer
-DNS zone transfer
-dns-brute
-DNS brute force, useful for CNAME discovery
--sL <IP range>| grep \)
-Reverse DNS scan
-To use an custom word list: nmap --scri­pt=­<script name> <do­mai­n> (optional) --scri­pt-­arg­s=d­ns-­bru­te.h­os­tli­st=­<path to file.t­xt>
+dns-zo­ne-­tra­nsfer  
+DNS zone transfer  
+dns-brute  
+DNS brute force, useful for CNAME discovery  
+-sL <IP range>| grep \)  
+Reverse DNS scan  
+To use an custom word list: nmap --scri­pt=­<script name> <do­mai­n> (optional)  --scri­pt-­arg­s=d­ns-­bru­te.h­os­tli­st=­<path to file.t­xt>
 
  ----------
 | DNSRecon |
