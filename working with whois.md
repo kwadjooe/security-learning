@@ -42,21 +42,22 @@ Reverse DNS scan
 To use an custom word list: nmap --scri­pt=­<script name> <do­mai­n> (optional)  --scri­pt-­arg­s=d­ns-­bru­te.h­os­tli­st=­<path to file.t­xt>  
 
  ----------
-| DNSRecon |
+| DNSRecon |  
  ----------
- -h --help --> Show this help mesasge and exit
- -d --domain <do­mai­n> --> Domain to Target for enumer­ation
- -r --range <IP range> --> IP Range for reverse lookup brute force
- -n --name­_server <na­me> --> Domain server to use
- -D --dict­ionary <fi­le> --> Dictionary file to use for brute force
- -t --type <ty­pes> --> Specify the type of enumer­ation to perform
- -a --> Perform AXFR with standard enumer­ation
- -s --> Reverse Look-up for IPv4 ranges in SPF Records
- -g --> Perform Google enumer­ation
- -w --> Do deep whois analysis and reverse look-up
- -z --> Performs a DNSSEC Zone Walk
+   
+ -h --help --> Show this help mesasge and exit  
+ -d --domain <do­mai­n> --> Domain to Target for enumer­ation  
+ -r --range <IP range> --> IP Range for reverse lookup brute force  
+ -n --name­_server <na­me> --> Domain server to use  
+ -D --dict­ionary <fi­le> --> Dictionary file to use for brute force  
+ -t --type <ty­pes> --> Specify the type of enumer­ation to perform  
+ -a --> Perform AXFR with standard enumer­ation  
+ -s --> Reverse Look-up for IPv4 ranges in SPF Records  
+ -g --> Perform Google enumer­ation  
+ -w --> Do deep whois analysis and reverse look-up  
+ -z --> Performs a DNSSEC Zone Walk  
 
-Usage: dnsrec­on.py <op­tio­ns>
+Usage: dnsrec­on.py <op­tio­ns>  
 
  ------------
 | Metasploit |
