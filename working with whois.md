@@ -80,5 +80,5 @@ recon-ng |
 by default no module is installed. Use  
 marketplace search --> to search for various module  
 
-marketplace search <module name> --> to search for a specific module 
-marketplace install <module name>  --> to install a specific module
+marketplace search <module name> --> to search for a specific module  
+marketplace install <module name>  --> to install a specific module  
