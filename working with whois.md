@@ -72,5 +72,11 @@ Gathers general DNS inform­ation
 auxili­ary­/ga­the­r/d­ns_­rev­ers­e_l­ookup  
 Performs a reverse DNS (PTR) scan of a netblock, replicates DNSRecon's reverse brute force  
 auxili­ary­/ga­the­r/d­ns_­srv­_enum  
-Enumerates SRV (Server) records  
+Enumerates SRV (Server) records 
+
+---------
+recon-ng |    
+----------
+by default no module is installed. Use  
+marketplace search --> to search for various module  
 
