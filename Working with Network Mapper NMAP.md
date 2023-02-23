@@ -35,6 +35,16 @@ Passive Banner Grabbing  ---> Determine Application and Version information from
     Apache configure Apache2.conf:  
         ServerSignature Off <Don't display server version on error page or generated pages>  
         ServerTokens Prod  <Return Only "Apache" in the server header>  
+    
+    Apache mod_headers:  
+        set Server "LionOs 1.2"  
+    
+    IIS:  
+        IIS Lockdown Wizard - https://microsoft.com  
+        Disable unnecessary services  
+    
+
+
 
 ## Useful Linux Commands for Admin
 cat /etc/services ---> to display various services running on a linux box  
