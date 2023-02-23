@@ -41,7 +41,7 @@ Passive Banner Grabbing  ---> Determine Application and Version information from
         set Server "LionOs 1.2"  
     
     IIS:  
-        IIS Lockdown Wizard - [visit microsoft](https://microsoft.com)  
+        IIS Lockdown Wizard - [visit microsoft](https://www.microsoft.com)  
         Disable unnecessary services  
     
 
