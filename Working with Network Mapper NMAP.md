@@ -53,5 +53,5 @@ grep 515 /etc/services
 systemctl stop firewalld NetworkManager  
 systemctl disable firewalld NetworkManager  
 
-systemctl start NetworkManager
-nmtui  --> configure Networking usign GUI
+systemctl start NetworkManager  
+nmtui  --> configure Networking usign GUI  
