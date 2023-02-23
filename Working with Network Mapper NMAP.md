@@ -31,7 +31,8 @@ Passive Banner Grabbing  ---> Determine Application and Version information from
 
 ## Countermeasures
 
--- Set false banners (Security through Obscurity)     
+-- Set false banners (Security through Obscurity)       
+
     Apache configure Apache2.conf:  
         ServerSignature Off <Don't display server version on error page or generated pages>  
         ServerTokens Prod  <Return Only "Apache" in the server header>  
