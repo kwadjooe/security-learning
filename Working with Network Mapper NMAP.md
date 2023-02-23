@@ -48,10 +48,9 @@ Passive Banner Grabbing  ---> Determine Application and Version information from
 
 
 ## Useful Linux Commands for Admin
-cat /etc/services ---> to display various services running on a linux box  
-grep 515 /etc/services  
-systemctl stop firewalld NetworkManager  
-systemctl disable firewalld NetworkManager  
-
-systemctl start NetworkManager  
-nmtui  --> configure Networking usign GUI  
+    cat /etc/services ---> to display various services running on a linux box  
+    grep 515 /etc/services  
+    systemctl stop firewalld NetworkManager  
+    systemctl disable firewalld NetworkManager  
+    systemctl start NetworkManager  
+    nmtui  --> configure Networking usign GUI  
