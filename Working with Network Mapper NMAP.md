@@ -18,9 +18,9 @@ nmap -V -iR 10000 -Pn -p 80   ---> Generate random IP Addr and scan for port 80
 Active Banner Grabbing  ---> Sending traffic to the system and analysing responses to deduce the version information   
 
 telnet <IP Addr> 22  ---> will give us a clue about the version of SSH running   
-telnet example.com 80  ---> will show great information
-nc example.com 80 ---> Using Netcat to get information
-nmap -sV --script=banner -p 80 example.com
+telnet example.com 80  ---> will show great information  
+nc example.com 80 ---> Using Netcat to get information  
+nmap -sV --script=banner -p 80 example.com  
 
 ***info  
 {Escape character is "^]"  and quit to exit telnet}  
@@ -32,10 +32,10 @@ Passive Banner Grabbing  ---> Determine Application and Version information from
 ## Countermeasures
 
 -- Set false banners (Security through Obscurity)     
-    Apacahe  configure Apache2.conf:  
+    Apache configure Apache2.conf:  
         ServerSignature Off <Don't display server version on error page or generated pages>  
         ServerTokens Prod  <Return Only "Apache" in the server header>  
 
 ## Useful Linux Commands for Admin
-cat /etc/services ---> to display various services running on a linux box
+cat /etc/services ---> to display various services running on a linux box  
 grep 515 /etc/services
