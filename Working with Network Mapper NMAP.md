@@ -23,16 +23,16 @@ nc example.com 80 ---> Using Netcat to get information
 nmap -sV --script=banner -p 80 example.com
 
 ***info  
-{Escape character is "^]"  and quit to exit telnet} 
+{Escape character is "^]"  and quit to exit telnet}  
 
-Passive Banner Grabbing  ---> Determine Application and Version information from source such Packet Captures
+Passive Banner Grabbing  ---> Determine Application and Version information from source such Packet Captures  
 
 
 
 ## Countermeasures
 
--- Set false banners (Security through Obscurity)   
-    Apacahe  configure Apache2.conf:
+-- Set false banners (Security through Obscurity)     
+    Apacahe  configure Apache2.conf:  
         ServerSignature Off <Don't display server version on error page or generated pages>  
         ServerTokens Prod  <Return Only "Apache" in the server header>  
 
