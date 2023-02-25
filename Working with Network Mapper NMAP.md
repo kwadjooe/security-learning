@@ -55,7 +55,7 @@ Passive Banner Grabbing  ---> Determine Application and Version information from
     systemctl start NetworkManager  
     nmtui  --> configure Networking usign GUI  
     free -m  --> to display free memory  
----
+--- ###### the Correct Adapter Name ######   
     modify the network entry to show eth0  instead of some random ensxxx  
     cd /etc/default/  
     ls -l  
