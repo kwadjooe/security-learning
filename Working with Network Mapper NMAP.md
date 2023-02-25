@@ -54,3 +54,10 @@ Passive Banner Grabbing  ---> Determine Application and Version information from
     systemctl disable firewalld NetworkManager  
     systemctl start NetworkManager  
     nmtui  --> configure Networking usign GUI  
+---
+    modify the network entry to show eth0  
+    edit the grub.cfg file and add to   
+    GRUB_CMDLINE_LINUX="biosdevname=0 net.ifnames=0 biosdevname=0"  
+
+    or during install select install then press tab to add the entry before installation  
+---
