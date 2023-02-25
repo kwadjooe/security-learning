@@ -1,4 +1,4 @@
-### IP QUERIES DESCRIPTIONS AND TASKS
+### - IP QUERIES 
 
 ---
     addr  ---> Display IP Addresses and property information (abbreviation of address)  
@@ -41,3 +41,27 @@
 
     ip neigh help  --->  Display neighbour commands and arguments  
 ---
+
+#### – FILE PERMISSIONS
+Linux chmod example
+        PERMISSION      EXAMPLE
+
+         U   G   W
+        rwx rwx rwx     chmod 777 filename
+        rwx rwx r-x     chmod 775 filename
+        rwx r-x r-x     chmod 755 filename
+        rw- rw- r--     chmod 664 filename
+        rw- r-- r--     chmod 644 filename
+
+#### NOTE: Use 777 with caution !
+
+        LEGEND
+        U = User
+        G = Group
+        W = World
+
+        r = Read
+        w = write
+        x = execute
+        - = no access your **content** *here*
+
