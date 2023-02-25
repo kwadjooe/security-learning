@@ -5,13 +5,13 @@
 
     ip addr  --->  Show information for all addresses  
 
-    ip addr show dev em1  ---> Display information only for device em1  
+    ip addr show dev eth0  ---> Display information only for device eth0  
 
     link  --->  Manage and display the state of all network interfaces
 
     ip link  --->  Show information for all interfaces  
 
-    ip link show dev em1  --->  Display information only for device em1  
+    ip link show dev eth0  --->  Display information only for device eth0  
 
     ip -s link  --->  Display interface statistics  
 
@@ -23,13 +23,13 @@
 
     ip maddr  --->  Display multicast information for all devices  
 
-    ip maddr show dev em1  --->  Display multicast information for device em1  
+    ip maddr show dev eth0  --->  Display multicast information for device eth0  
 
     neigh  --->  Show neighbour objects; this is also known as the ARP table for IPv4  
 
     ip neigh  --->  Display neighbour objects  
 
-    ip neigh show dev em1  --->  Show the ARP cache for device em1  
+    ip neigh show dev eth0  --->  Show the ARP cache for device eth0  
 
     help  --->   Display a list of commands and arguments for each subcommand  
 
