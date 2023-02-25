@@ -54,10 +54,17 @@ Passive Banner Grabbing  ---> Determine Application and Version information from
     systemctl disable firewalld NetworkManager  
     systemctl start NetworkManager  
     nmtui  --> configure Networking usign GUI  
+    free -m  --> to display free memory  
 ---
-    modify the network entry to show eth0  
+    modify the network entry to show eth0  instead of some random ensxxx  
+    cd /etc/default/  
+    ls -l  
+    vim grub  
     edit the grub.cfg file and add to   
     GRUB_CMDLINE_LINUX="biosdevname=0 net.ifnames=0 biosdevname=0"  
+    apply the change by running   
+    grub2-mkconfig -o /boot/grub2/grub.cfg  
+    Restart the computer and done  
 
     or during install select install then press tab to add the entry before installation  
 ---
