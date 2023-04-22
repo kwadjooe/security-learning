@@ -2,6 +2,8 @@
 
     man nmap  ---> will display the Manual for NMAP  
 
+    nmap -A <ip Addr>  
+
     nmap -n -sn <Subnet IP>   ---> ARP Scan for a particular subnet without name resolution  (Passive Scan)
 
     nmap -sT -p1-1000 -Tinsane <Subnet IP>  ---> Connect Scan for the first 1000 ports (Active Scan)
@@ -70,3 +72,7 @@ Passive Banner Grabbing  ---> Determine Application and Version information from
 
     or during install select install then press tab to add the entry before installation  
 ---
+
+## Metasploit Workflow  
+- discover target and the vulnerability running on the target  
+    nmap -A <ip Addr>  
