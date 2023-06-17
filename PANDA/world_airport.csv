@@ -1,0 +1,12 @@
+Code,Airport,Country,Rating
+SFO,San Francisco,USA,Good
+LHR,London Heathrow,UK,Bad
+CDG,Charles de Gaulle,France,Good
+HKG,Hong Kong,China,Bad
+DXB,Dubai,UAE,Good
+SIN,Singapore Changi,Singapore,Bad
+AMS,Amsterdam Schiphol,Netherlands,Good
+MUC,Munich,Germany,Bad
+HND,Tokyo Haneda,Japan,Good
+ICN,Seoul Incheon,South Korea,Bad
+KUL,Kuala Lumpur,Malaysia,Great
